@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "CartoMobileSDK",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v11)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "CartoMobileSDK", url: "https://storage.googleapis.com/aena-xcframework/ios-mobile-carto-4.0.zip", checksum: "144112be731d2845946c79606e1cbbd6afcc1b6eac84d41b8cd400465463498e")
+        .binaryTarget(name: "CartoMobileSDK", url: "https://storage.googleapis.com/aena-xcframework/ios-mobile-carto-4.0.1.zip", checksum: "36b9efecfdaeb0216734eef093f8102e9363f5ae897d8ed815f1b8e6c1101274")
 
     ]
 )
