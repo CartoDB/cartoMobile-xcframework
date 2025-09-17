@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "CartoMobileSDK", url: "https://storage.googleapis.com/aena-xcframework/ios-mobile-carto-4.0.1.zip", checksum: "36b9efecfdaeb0216734eef093f8102e9363f5ae897d8ed815f1b8e6c1101274")
+        .binaryTarget(name: "CartoMobileSDK", url: "https://storage.googleapis.com/aena-xcframework/ios-mobile-carto-4.0.2.zip", checksum: "d76b84d89b29c7d16640650b18f0518eae7390ac465ee863f83d9d8c9d10c94f")
 
     ]
 )
